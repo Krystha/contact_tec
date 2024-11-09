@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Hace que el body ocupe toda la altura de la ventana */
+}
+.logo {
+    display: block;
+    margin-right: 300px; /* Espacio a la derecha del logo */
+    max-width: 500px; /* Limita el ancho máximo del logo */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+.container {
+    width: 350px;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.button:hover {
+    background-color: #4cae4c;
+}
+.header {
+    display: flex;
+    align-items: center; /* Centra verticalmente el logo y el contenedor */
+}
